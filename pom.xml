@@ -249,6 +249,20 @@
 		            <target>1.6</target>
 		        </configuration>
     		</plugin>
+    		<plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7</version>
+                <configuration>
+                    <hostname>localhost</hostname>
+                    <username>admin</username>
+                    <password>admin</password>
+                    <jbossHome>/home/smadugula/jboss-eas-5.2</jbossHome>
+                    <serverName>localhost</serverName>
+                    <targetDir>target</targetDir>
+                    <fileName>target/demo-rest-jersey-spring.war</fileName>
+                </configuration>
+            </plugin>
 		    <!-- use the plugin to generate customed war name -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
