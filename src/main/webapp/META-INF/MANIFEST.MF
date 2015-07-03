@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: DemoRestWS
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Amogh
+Specification-Title: DemoRestWS
+Implementation-Vendor-Id: org.codingpedia
+Created-By: Apache Maven 3.2.1
+Build-Jdk: 1.8.0_45
+Specification-Version: 0.0.1-SNAPSHOT
+
